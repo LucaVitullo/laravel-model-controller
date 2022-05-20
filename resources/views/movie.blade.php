@@ -12,8 +12,8 @@
 
     <div class="container">
         <div class="card">
-            @foreach ($movie as $prova)
-                <p>{{ $prova['title'] }}</p>
+            @foreach ($movie as $item)
+                <p>{{ $item['title'] }}</p>
             @endforeach
         </div>
     </div>
